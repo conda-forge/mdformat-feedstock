@@ -1,5 +1,5 @@
 {% set name = "mdformat" %}
-{% set version = "0.7.6" %}
+{% set version = "0.7.7" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mdformat-{{ version }}.tar.gz
-  sha256: d2ce8fd6e071b1a0b7c9e08b1388f84aa4ed4923c639a658a43a919ea683c846
+  sha256: 08e6723c60b657b833d7ba7547c8a926567a39ecd47fd1316793ac9ca84b9730
 
 build:
-  number: 1
+  number: 0
   noarch: python
   entry_points:
     - mdformat = mdformat.__main__:run
@@ -20,12 +20,12 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.6.1
     - poetry-core
   run:
     - importlib-metadata >=3.6.0
     - markdown-it-py >=1.0.0b2,<2.0.0
-    - python >=3.6
+    - python >=3.6.1
     - typing-extensions >=3.7.4
 
 test:
