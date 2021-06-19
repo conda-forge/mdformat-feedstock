@@ -20,12 +20,12 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.6.1
     - poetry-core
   run:
     - importlib-metadata >=3.6.0
     - markdown-it-py >=1.0.0b2,<2.0.0
-    - python >=3.6
+    - python >=3.6.1
     - typing-extensions >=3.7.4
 
 test:
