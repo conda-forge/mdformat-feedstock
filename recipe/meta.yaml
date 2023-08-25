@@ -21,15 +21,14 @@ build:
 #   https://github.com/executablebooks/mdformat/blob/master/pyproject.toml
 requirements:
   host:
-    - pip
-    - python >=3.7
+    - python >=3.8
     - setuptools >=61.0.0
+    - pip
   run:
-    - python >=3.7,<4
+    - python >=3.8
+    - markdown-it-py >=1.0.0,<4.0.0
     - tomli >=1.1.0
-    - markdown-it-py >=1.0.0,<3.0.0
     - importlib-metadata >=3.6.0
-    - typing-extensions >=3.7.4
 
 test:
   imports:
