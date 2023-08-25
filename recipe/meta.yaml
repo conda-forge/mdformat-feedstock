@@ -1,5 +1,5 @@
 {% set name = "mdformat" %}
-{% set version = "0.7.16" %}
+{% set version = "0.7.17" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mdformat-{{ version }}.tar.gz
-  sha256: 99b105033207d2ab70ba1ced8e07327ed4ef1e0a6bc1c7c00207ea73ab502782
+  sha256: a9dbb1838d43bb1e6f03bd5dca9412c552544a9bc42d6abb5dc32adfe8ae7c0d
 
 build:
   number: 0
@@ -21,15 +21,14 @@ build:
 #   https://github.com/executablebooks/mdformat/blob/master/pyproject.toml
 requirements:
   host:
-    - pip
-    - python >=3.7
+    - python >=3.8
     - setuptools >=61.0.0
+    - pip
   run:
-    - python >=3.7,<4
+    - python >=3.8
+    - markdown-it-py >=1.0.0,<4.0.0
     - tomli >=1.1.0
-    - markdown-it-py >=1.0.0,<3.0.0
     - importlib-metadata >=3.6.0
-    - typing-extensions >=3.7.4
 
 test:
   imports:
