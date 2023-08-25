@@ -1,5 +1,5 @@
 {% set name = "mdformat" %}
-{% set version = "0.7.16" %}
+{% set version = "0.7.17" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mdformat-{{ version }}.tar.gz
-  sha256: 99b105033207d2ab70ba1ced8e07327ed4ef1e0a6bc1c7c00207ea73ab502782
+  sha256: a9dbb1838d43bb1e6f03bd5dca9412c552544a9bc42d6abb5dc32adfe8ae7c0d
 
 build:
   number: 0
