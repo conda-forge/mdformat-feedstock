@@ -1,11 +1,11 @@
-About mdformat
-==============
+About mdformat-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mdformat-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/executablebooks/mdformat
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mdformat-feedstock/blob/main/LICENSE.txt)
 
 Summary: CommonMark compliant Markdown formatter
 
