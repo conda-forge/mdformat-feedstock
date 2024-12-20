@@ -144,4 +144,5 @@ Feedstock Maintainers
 =====================
 
 * [@maresb](https://github.com/maresb/)
+* [@timkpaine](https://github.com/timkpaine/)
 
